@@ -176,6 +176,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         Laravel\Spark\Providers\SparkServiceProvider::class,
         Laravel\Cashier\CashierServiceProvider::class,
+        App\Providers\SparkServiceProvider::class,
+
 
     ],
 
